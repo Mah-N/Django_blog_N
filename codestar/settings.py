@@ -91,6 +91,15 @@ DATABASES = {
     'default': dj_database_url.parse(os.environ.get("DATABASE_URL", "postgres://u3veubo54py:K4HjLniQLCQU@ep-gentle-mountain-a23bxz6h.eu-central-1.aws.neon.tech/train_duck_ice_788528"))
 }
 
+CSRF_TRUSTED_ORIGINS = [
+    # "http://127.0.0.1:8000",
+    # "http://localhost:8000",
+    "https://*.codeanyapp.com",
+    "https://*.herokuapp.com",
+    "https://8000-mahn-djangoblogn-rqnseh9myb9.ws.codeinstitute-ide.net",
+    "http://127.0.0.1:8000",
+    "http://localhost:8000",
+]
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
