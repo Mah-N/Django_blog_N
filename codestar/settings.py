@@ -94,7 +94,7 @@ DATABASES = {
 CSRF_TRUSTED_ORIGINS = [
     # "http://127.0.0.1:8000",
     # "http://localhost:8000",
-    "https://*.codeanyapp.com",
+    "https://*.codeinstitute-ide.net/",
     "https://*.herokuapp.com",
     "https://8000-mahn-djangoblogn-rqnseh9myb9.ws.codeinstitute-ide.net",
     "http://127.0.0.1:8000",
